@@ -1,0 +1,5 @@
+C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\cronometro.csproj.AssemblyReference.cache
+C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\cronometro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\cronometro.AssemblyInfoInputs.cache
+C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\cronometro.AssemblyInfo.cs
+C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\cronometro.csproj.CoreCompileInputs.cache
