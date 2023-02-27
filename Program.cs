@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace Cronometro
 {
@@ -6,6 +7,7 @@ namespace Cronometro
     {
         static void Main(string[] args)
         {
+
             Start();
         }
 
@@ -16,7 +18,10 @@ namespace Cronometro
 
             while (tempoAtual != tempo)
             {
+                Console.Clear();
                 tempoAtual++;
+                Console.WriteLine(tempoAtual);
+                Thread.Sleep(1000);
             }
         }
     }

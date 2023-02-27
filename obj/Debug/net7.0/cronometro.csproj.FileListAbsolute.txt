@@ -3,3 +3,13 @@ C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\cronometro.GeneratedMSBuildE
 C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\cronometro.AssemblyInfoInputs.cache
 C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\cronometro.AssemblyInfo.cs
 C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\cronometro.csproj.CoreCompileInputs.cache
+C:\Projetos\Projetos_C#\cronometro\bin\Debug\net7.0\cronometro.exe
+C:\Projetos\Projetos_C#\cronometro\bin\Debug\net7.0\cronometro.deps.json
+C:\Projetos\Projetos_C#\cronometro\bin\Debug\net7.0\cronometro.runtimeconfig.json
+C:\Projetos\Projetos_C#\cronometro\bin\Debug\net7.0\cronometro.dll
+C:\Projetos\Projetos_C#\cronometro\bin\Debug\net7.0\cronometro.pdb
+C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\cronometro.dll
+C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\refint\cronometro.dll
+C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\cronometro.pdb
+C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\cronometro.genruntimeconfig.cache
+C:\Projetos\Projetos_C#\cronometro\obj\Debug\net7.0\ref\cronometro.dll
