@@ -8,12 +8,24 @@ namespace Cronometro
         static void Main(string[] args)
         {
 
-            Start();
+            Start(6);
         }
 
-        static void Start()
+        static void Menu()
         {
-            int tempo = 10;
+            Console.Clear();
+            Console.WriteLine("S = Segundo");
+            Console.WriteLine("M = Minuto");
+            Console.WriteLine("0 = Sair");
+            Console.WriteLine("Quanto tempo deseja contar?");
+
+            string data = Console.ReadLine().ToLower();
+            Console.WriteLine(data);
+        }
+
+        static void Start(int tempo)
+        {
+
             int tempoAtual = 0;
 
             while (tempoAtual != tempo)
@@ -23,6 +35,9 @@ namespace Cronometro
                 Console.WriteLine(tempoAtual);
                 Thread.Sleep(1000);
             }
+            Console.Clear();
+            Console.WriteLine("Contagem finalizada");
+            Thread.Sleep(2500);
         }
     }
 }
