@@ -8,7 +8,7 @@ namespace Cronometro
         static void Main(string[] args)
         {
 
-            Start(6);
+            Menu();
         }
 
         static void Menu()
