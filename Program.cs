@@ -14,13 +14,13 @@ namespace Cronometro
         static void Menu()
         {
             Console.Clear();
-            Console.WriteLine("S = Segundo");
-            Console.WriteLine("M = Minuto");
+            Console.WriteLine("S = Segundo => 10s = 10 segundos");
+            Console.WriteLine("M = Minuto => 10s = 10 segundos");
             Console.WriteLine("0 = Sair");
             Console.WriteLine("Quanto tempo deseja contar?");
 
             string data = Console.ReadLine().ToLower();
-            char tipo = char.Parse(data.Substring(0, 1));
+            char tipo = char.Parse(data.Substring(data.Length - 1, 1));
             Console.WriteLine(data);
 
         }
