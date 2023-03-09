@@ -22,10 +22,17 @@ namespace Cronometro
             string data = Console.ReadLine().ToLower();
             char tipo = char.Parse(data.Substring(data.Length - 1, 1));
             int tempo = int.Parse(data.Substring(0, data.Length - 1));
+            int multiplica = 1;
 
-            Console.WriteLine(tipo);
-            Console.WriteLine(tempo);
-
+            if (tipo == 'm')
+            {
+                multiplica = 60;
+            }
+            if (tempo == 0)
+            {
+                System.Environment.Exit(0);
+            }
+            Start(tempo * multiplica);
         }
 
         static void Start(int tempo)
@@ -37,7 +44,7 @@ namespace Cronometro
             {
                 Console.Clear();
                 tempoAtual++;
-                Console.WriteLine(tempoAtual);
+                Console.WriteLine(tempoAtual + "s");
                 Thread.Sleep(1000);
             }
             Console.Clear();
