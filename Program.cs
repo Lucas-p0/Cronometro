@@ -35,6 +35,17 @@ namespace Cronometro
             Start(tempo * multiplica);
         }
 
+        static void PreStart()
+        {
+            Console.Clear();
+            Console.WriteLine("Ready...");
+            Thread.Sleep(1000);
+            Console.WriteLine("Set...");
+            Thread.Sleep(1000);
+            Console.WriteLine("Go...");
+            Thread.Sleep(2500);
+
+        }
         static void Start(int tempo)
         {
 
