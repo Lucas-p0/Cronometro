@@ -32,10 +32,10 @@ namespace Cronometro
             {
                 System.Environment.Exit(0);
             }
-            Start(tempo * multiplica);
+            PreStart(tempo * multiplica);
         }
 
-        static void PreStart()
+        static void PreStart(int tempo)
         {
             Console.Clear();
             Console.WriteLine("Ready...");
@@ -44,6 +44,7 @@ namespace Cronometro
             Thread.Sleep(1000);
             Console.WriteLine("Go...");
             Thread.Sleep(2500);
+            Start(tempo);
 
         }
         static void Start(int tempo)
